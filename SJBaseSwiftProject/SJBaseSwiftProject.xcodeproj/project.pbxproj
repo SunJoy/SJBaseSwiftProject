@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		7B449F571D73DD1C0015413B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F561D73DD1C0015413B /* AppDelegate.swift */; };
-		7B449F591D73DD1C0015413B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F581D73DD1C0015413B /* ViewController.swift */; };
 		7B449F5C1D73DD1C0015413B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B449F5A1D73DD1C0015413B /* Main.storyboard */; };
 		7B449F5E1D73DD1C0015413B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B449F5D1D73DD1C0015413B /* Assets.xcassets */; };
 		7B449F611D73DD1C0015413B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B449F5F1D73DD1C0015413B /* LaunchScreen.storyboard */; };
 		7B449F6C1D73DD1C0015413B /* SJBaseSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F6B1D73DD1C0015413B /* SJBaseSwiftProjectTests.swift */; };
 		7B449F771D73DD1C0015413B /* SJBaseSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F761D73DD1C0015413B /* SJBaseSwiftProjectUITests.swift */; };
+		7B449F8E1D73FF230015413B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F8D1D73FF230015413B /* ViewController.swift */; };
+		7B449F901D73FF5A0015413B /* SJApiMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F8F1D73FF5A0015413B /* SJApiMacro.swift */; };
+		7B449F921D73FF8B0015413B /* SJGlobalMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F911D73FF8B0015413B /* SJGlobalMacro.swift */; };
+		7B449F941D7400380015413B /* SJAppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F931D7400380015413B /* SJAppMacro.swift */; };
+		7B449F961D74005A0015413B /* SJVendorMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F951D74005A0015413B /* SJVendorMacro.swift */; };
+		7B449FA01D7401DC0015413B /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F9D1D7401DC0015413B /* LocationManager.m */; };
+		7B449FA11D7401DC0015413B /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B449F9F1D7401DC0015413B /* WGS84TOGCJ02.m */; };
+		7BB861F11D740B6300E24A1A /* SJCommonObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB861F01D740B6300E24A1A /* SJCommonObj.swift */; };
+		7BB861F71D740C4700E24A1A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BB861F61D740C4700E24A1A /* Info.plist */; };
+		7BB861F91D740D3B00E24A1A /* SJBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB861F81D740D3B00E24A1A /* SJBaseModel.swift */; };
+		7BB861FB1D740D6D00E24A1A /* testPdf.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7BB861FA1D740D6D00E24A1A /* testPdf.PDF */; };
+		7BB862031D740DA600E24A1A /* AddressChoicePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB861FE1D740DA600E24A1A /* AddressChoicePickerView.m */; };
+		7BB862041D740DA600E24A1A /* AddressChoicePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB861FF1D740DA600E24A1A /* AddressChoicePickerView.xib */; };
+		7BB862051D740DA600E24A1A /* AreaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB862011D740DA600E24A1A /* AreaObject.m */; };
+		7BB862061D740DA600E24A1A /* AreaPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BB862021D740DA600E24A1A /* AreaPlist.plist */; };
+		7BB862091D740DF900E24A1A /* JYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB862081D740DF900E24A1A /* JYUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +51,36 @@
 /* Begin PBXFileReference section */
 		7B449F531D73DD1C0015413B /* SJBaseSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJBaseSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B449F561D73DD1C0015413B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B449F581D73DD1C0015413B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B449F5B1D73DD1C0015413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7B449F5D1D73DD1C0015413B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B449F5D1D73DD1C0015413B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		7B449F601D73DD1C0015413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7B449F621D73DD1C0015413B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B449F671D73DD1C0015413B /* SJBaseSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJBaseSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B449F6B1D73DD1C0015413B /* SJBaseSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJBaseSwiftProjectTests.swift; sourceTree = "<group>"; };
 		7B449F6D1D73DD1C0015413B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B449F721D73DD1C0015413B /* SJBaseSwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJBaseSwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B449F761D73DD1C0015413B /* SJBaseSwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJBaseSwiftProjectUITests.swift; sourceTree = "<group>"; };
 		7B449F781D73DD1C0015413B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B449F8D1D73FF230015413B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B449F8F1D73FF5A0015413B /* SJApiMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJApiMacro.swift; sourceTree = "<group>"; };
+		7B449F911D73FF8B0015413B /* SJGlobalMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJGlobalMacro.swift; sourceTree = "<group>"; };
+		7B449F931D7400380015413B /* SJAppMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJAppMacro.swift; sourceTree = "<group>"; };
+		7B449F951D74005A0015413B /* SJVendorMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJVendorMacro.swift; sourceTree = "<group>"; };
+		7B449F9C1D7401DC0015413B /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		7B449F9D1D7401DC0015413B /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		7B449F9E1D7401DC0015413B /* WGS84TOGCJ02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGS84TOGCJ02.h; sourceTree = "<group>"; };
+		7B449F9F1D7401DC0015413B /* WGS84TOGCJ02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGS84TOGCJ02.m; sourceTree = "<group>"; };
+		7BB861F01D740B6300E24A1A /* SJCommonObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJCommonObj.swift; sourceTree = "<group>"; };
+		7BB861F61D740C4700E24A1A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB861F81D740D3B00E24A1A /* SJBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJBaseModel.swift; sourceTree = "<group>"; };
+		7BB861FA1D740D6D00E24A1A /* testPdf.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = testPdf.PDF; sourceTree = "<group>"; };
+		7BB861FD1D740DA600E24A1A /* AddressChoicePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressChoicePickerView.h; sourceTree = "<group>"; };
+		7BB861FE1D740DA600E24A1A /* AddressChoicePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressChoicePickerView.m; sourceTree = "<group>"; };
+		7BB861FF1D740DA600E24A1A /* AddressChoicePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressChoicePickerView.xib; sourceTree = "<group>"; };
+		7BB862001D740DA600E24A1A /* AreaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaObject.h; sourceTree = "<group>"; };
+		7BB862011D740DA600E24A1A /* AreaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaObject.m; sourceTree = "<group>"; };
+		7BB862021D740DA600E24A1A /* AreaPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AreaPlist.plist; sourceTree = "<group>"; };
+		7BB862071D740DF900E24A1A /* JYUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYUtilities.h; sourceTree = "<group>"; };
+		7BB862081D740DF900E24A1A /* JYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				7B449F551D73DD1C0015413B /* SJBaseSwiftProject */,
+				7BB861F51D740C3C00E24A1A /* SupportingFiles */,
 				7B449F6A1D73DD1C0015413B /* SJBaseSwiftProjectTests */,
 				7B449F751D73DD1C0015413B /* SJBaseSwiftProjectUITests */,
 				7B449F541D73DD1C0015413B /* Products */,
@@ -98,11 +133,15 @@
 			isa = PBXGroup;
 			children = (
 				7B449F561D73DD1C0015413B /* AppDelegate.swift */,
-				7B449F581D73DD1C0015413B /* ViewController.swift */,
-				7B449F5A1D73DD1C0015413B /* Main.storyboard */,
-				7B449F5D1D73DD1C0015413B /* Assets.xcassets */,
-				7B449F5F1D73DD1C0015413B /* LaunchScreen.storyboard */,
-				7B449F621D73DD1C0015413B /* Info.plist */,
+				7B449F861D73FF040015413B /* SJMacro */,
+				7B449F841D73FF040015413B /* SJCommon */,
+				7B449F8C1D73FF040015413B /* SJViewController */,
+				7B449F851D73FF040015413B /* SJInterfaceBuilder */,
+				7B449F871D73FF040015413B /* SJManagementClass */,
+				7B449F881D73FF040015413B /* SJModel */,
+				7B449F891D73FF040015413B /* SJResource */,
+				7B449F8A1D73FF040015413B /* SJThridParty */,
+				7B449F8B1D73FF040015413B /* SJUtilities */,
 			);
 			path = SJBaseSwiftProject;
 			sourceTree = "<group>";
@@ -123,6 +162,117 @@
 				7B449F781D73DD1C0015413B /* Info.plist */,
 			);
 			path = SJBaseSwiftProjectUITests;
+			sourceTree = "<group>";
+		};
+		7B449F841D73FF040015413B /* SJCommon */ = {
+			isa = PBXGroup;
+			children = (
+				7BB861F01D740B6300E24A1A /* SJCommonObj.swift */,
+			);
+			path = SJCommon;
+			sourceTree = "<group>";
+		};
+		7B449F851D73FF040015413B /* SJInterfaceBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				7B449F5A1D73DD1C0015413B /* Main.storyboard */,
+				7B449F5F1D73DD1C0015413B /* LaunchScreen.storyboard */,
+			);
+			path = SJInterfaceBuilder;
+			sourceTree = "<group>";
+		};
+		7B449F861D73FF040015413B /* SJMacro */ = {
+			isa = PBXGroup;
+			children = (
+				7B449F8F1D73FF5A0015413B /* SJApiMacro.swift */,
+				7B449F911D73FF8B0015413B /* SJGlobalMacro.swift */,
+				7B449F931D7400380015413B /* SJAppMacro.swift */,
+				7B449F951D74005A0015413B /* SJVendorMacro.swift */,
+			);
+			path = SJMacro;
+			sourceTree = "<group>";
+		};
+		7B449F871D73FF040015413B /* SJManagementClass */ = {
+			isa = PBXGroup;
+			children = (
+				7B449F9B1D7401DC0015413B /* LocationManager */,
+			);
+			path = SJManagementClass;
+			sourceTree = "<group>";
+		};
+		7B449F881D73FF040015413B /* SJModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BB861F81D740D3B00E24A1A /* SJBaseModel.swift */,
+			);
+			path = SJModel;
+			sourceTree = "<group>";
+		};
+		7B449F891D73FF040015413B /* SJResource */ = {
+			isa = PBXGroup;
+			children = (
+				7BB861FA1D740D6D00E24A1A /* testPdf.PDF */,
+				7B449F5D1D73DD1C0015413B /* Assets.xcassets */,
+			);
+			path = SJResource;
+			sourceTree = "<group>";
+		};
+		7B449F8A1D73FF040015413B /* SJThridParty */ = {
+			isa = PBXGroup;
+			children = (
+				7BB861FC1D740DA600E24A1A /* AddressChoicePickerView */,
+			);
+			path = SJThridParty;
+			sourceTree = "<group>";
+		};
+		7B449F8B1D73FF040015413B /* SJUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7BB862071D740DF900E24A1A /* JYUtilities.h */,
+				7BB862081D740DF900E24A1A /* JYUtilities.m */,
+			);
+			path = SJUtilities;
+			sourceTree = "<group>";
+		};
+		7B449F8C1D73FF040015413B /* SJViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B449F8D1D73FF230015413B /* ViewController.swift */,
+			);
+			path = SJViewController;
+			sourceTree = "<group>";
+		};
+		7B449F9B1D7401DC0015413B /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				7B449F9C1D7401DC0015413B /* LocationManager.h */,
+				7B449F9D1D7401DC0015413B /* LocationManager.m */,
+				7B449F9E1D7401DC0015413B /* WGS84TOGCJ02.h */,
+				7B449F9F1D7401DC0015413B /* WGS84TOGCJ02.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		7BB861F51D740C3C00E24A1A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7BB861F61D740C4700E24A1A /* Info.plist */,
+			);
+			name = SupportingFiles;
+			path = SJBaseSwiftProject;
+			sourceTree = "<group>";
+		};
+		7BB861FC1D740DA600E24A1A /* AddressChoicePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7BB861FD1D740DA600E24A1A /* AddressChoicePickerView.h */,
+				7BB861FE1D740DA600E24A1A /* AddressChoicePickerView.m */,
+				7BB861FF1D740DA600E24A1A /* AddressChoicePickerView.xib */,
+				7BB862001D740DA600E24A1A /* AreaObject.h */,
+				7BB862011D740DA600E24A1A /* AreaObject.m */,
+				7BB862021D740DA600E24A1A /* AreaPlist.plist */,
+			);
+			path = AddressChoicePickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +379,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB861F71D740C4700E24A1A /* Info.plist in Resources */,
+				7BB862061D740DA600E24A1A /* AreaPlist.plist in Resources */,
 				7B449F611D73DD1C0015413B /* LaunchScreen.storyboard in Resources */,
+				7BB862041D740DA600E24A1A /* AddressChoicePickerView.xib in Resources */,
+				7BB861FB1D740D6D00E24A1A /* testPdf.PDF in Resources */,
 				7B449F5E1D73DD1C0015413B /* Assets.xcassets in Resources */,
 				7B449F5C1D73DD1C0015413B /* Main.storyboard in Resources */,
 			);
@@ -256,7 +410,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B449F591D73DD1C0015413B /* ViewController.swift in Sources */,
+				7B449FA01D7401DC0015413B /* LocationManager.m in Sources */,
+				7B449F901D73FF5A0015413B /* SJApiMacro.swift in Sources */,
+				7B449F941D7400380015413B /* SJAppMacro.swift in Sources */,
+				7BB861F91D740D3B00E24A1A /* SJBaseModel.swift in Sources */,
+				7B449F8E1D73FF230015413B /* ViewController.swift in Sources */,
+				7BB861F11D740B6300E24A1A /* SJCommonObj.swift in Sources */,
+				7B449F961D74005A0015413B /* SJVendorMacro.swift in Sources */,
+				7BB862051D740DA600E24A1A /* AreaObject.m in Sources */,
+				7B449F921D73FF8B0015413B /* SJGlobalMacro.swift in Sources */,
+				7BB862091D740DF900E24A1A /* JYUtilities.m in Sources */,
+				7B449FA11D7401DC0015413B /* WGS84TOGCJ02.m in Sources */,
+				7BB862031D740DA600E24A1A /* AddressChoicePickerView.m in Sources */,
 				7B449F571D73DD1C0015413B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +464,7 @@
 				7B449F5B1D73DD1C0015413B /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		7B449F5F1D73DD1C0015413B /* LaunchScreen.storyboard */ = {
@@ -307,6 +473,7 @@
 				7B449F601D73DD1C0015413B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,6 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJBaseSwiftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunjoy.SJBaseSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +581,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SJBaseSwiftProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunjoy.SJBaseSwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +653,7 @@
 				7B449F7D1D73DD1C0015413B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B449F7E1D73DD1C0015413B /* Build configuration list for PBXNativeTarget "SJBaseSwiftProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +662,7 @@
 				7B449F801D73DD1C0015413B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B449F811D73DD1C0015413B /* Build configuration list for PBXNativeTarget "SJBaseSwiftProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +671,7 @@
 				7B449F831D73DD1C0015413B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
